@@ -794,6 +794,12 @@ textarea.w-input, textarea.w-select {
     max-width: 728px;
   }
 
+  
+  #w-node-a8c7d493-5b15-9db1-8473-f6f7d5a75244-ece30c40 {
+    margin-top: 24px;
+  }
+  
+
   .w-hidden-main {
     display: inherit !important;
   }
@@ -4998,6 +5004,9 @@ figcaption {
 
   .black-line-text, .grey-text {
     font-size: 7vw;
+  }
+  .gridwithedit{
+    grid-area: span 1 / span 2 / span 1 / span 2;
   }
 }
 
