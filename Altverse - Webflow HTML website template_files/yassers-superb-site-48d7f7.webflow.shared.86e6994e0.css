@@ -5005,9 +5005,7 @@ figcaption {
   .black-line-text, .grey-text {
     font-size: 7vw;
   }
-  .gridwithedit{
-    grid-area: span 1 / span 2 / span 1 / span 2;
-  }
+  
 }
 
 #w-node-a8c7d493-5b15-9db1-8473-f6f7d5a75244-ece30c40 {
@@ -5034,6 +5032,10 @@ figcaption {
 
 @media screen and (max-width: 767px) {
   #w-node-_473308f8-f183-11e7-6d75-25a6d5f7133b-ece30c40, #w-node-_1292086c-ed54-3094-76eb-cc5f365b7968-468af7d9 {
+    grid-area: span 1 / span 2 / span 1 / span 2;
+  }
+
+  .gridwithedit{
     grid-area: span 1 / span 2 / span 1 / span 2;
   }
 }
